@@ -55,7 +55,8 @@ body
     flex-wrap: wrap;
 }
 
-.form-row input[type='text']
+.form-row input[type='text'], 
+.form-row input[type='email']
 {
     background-color: #FFFFFF;
     border: 1px solid #D6D9DC;
@@ -79,7 +80,11 @@ body
         align-items: flex-start;
         margin-bottom: 20px;
     }
- .form-row input [type='text']{
+ .form-row input [type='text'], 
+ .form-row input [type='email'],
+ .form-row select,
+ .form-row textarea
+ {
     width: 250px;
     height: initial;
  }
