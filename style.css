@@ -36,7 +36,6 @@ body {
     background-color: white;
     border: 1px solid black;
     border-radius: 3px;
-
     width: 80%;
     padding: 50px;
     margin: 0 0 40px 0;
@@ -55,14 +54,13 @@ body {
     background-color: white;
     border: 1px solid black;
     border-radius: 3px;
-
     width: 100%;
     padding: 7px;
     font-size: 14px;
 }
 
 .form-row label {
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 
 .form-row input[type="text"]:invalid,
@@ -88,7 +86,7 @@ body {
 }
 
 .legacy-form-row input[type="radio"] {
-    margin-top: 2px;
+margin-top: 2px;
 }
 
 .legacy-form-row .radio-label,
@@ -124,7 +122,7 @@ body {
 }
 
 .form-row .checkbox-label {
-    margin-bottom: 0;
+ margin-bottom: 0;
 }
 
 .form-row button {
